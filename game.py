@@ -48,7 +48,7 @@ def check_collision(pipe_frames):
 
 
 
-shape_predictor= '/Users/prakh/venv/lib/python3.9/site-packages/dlib/shape_predictor_68_face_landmarks.dat'
+shape_predictor= 'shape_predictor_68_face_landmarks.dat'
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(shape_predictor)
 (mStart, mEnd) = face_utils.FACIAL_LANDMARKS_IDXS["mouth"]
