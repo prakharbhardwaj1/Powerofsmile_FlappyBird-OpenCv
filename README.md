@@ -10,11 +10,11 @@ $ git clone https://github.com/prakharbhardwaj1/Powerofsmile_FlappyBird-OpenCv
 ```
 2. install requirements from requirement.txt file:
 ```
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 3. In the root directory run:
 ```
-$ python game.py
+$ python3 game.py
 ```
 4. Now, smile to play the game!
 
