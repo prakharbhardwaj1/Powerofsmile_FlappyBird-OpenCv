@@ -25,9 +25,9 @@ $ python3 game.py
 
 ## References
 
-https://github.com/wangsongyuan98/FlappyBird\_And\_OpenCV
+https://github.com/sourabhv/FlapPyBird
 
-https://github.com/wangsongyuan98/FlappyBird\_And\_OpenCV
+https://github.com/wangsongyuan98/FlappyBird_And_OpenCV
 
 https://github.com/popadi/python-flappy-bird
 
