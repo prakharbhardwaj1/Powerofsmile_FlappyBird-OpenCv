@@ -19,3 +19,8 @@ $ python3 game.py
 4. Now, smile to play the game!
 
 ![Getting Started](img.png)
+# Plot of MAR ratio and moving average before playing the game.
+![Getting Started](Figure_1.png)
+
+# Plot of MAR ratio and moving average while playing the game.
+![Getting Started](Figure_2.png)
