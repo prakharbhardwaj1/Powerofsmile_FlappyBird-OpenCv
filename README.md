@@ -19,8 +19,23 @@ $ python3 game.py
 4. Now, smile to play the game!
 
 ![Getting Started](img.png)
-# Plot of MAR ratio and moving average before playing the game.
-![Getting Started](Figure_1.png)
 
-# Plot of MAR ratio and moving average while playing the game.
-![Getting Started](Figure_2.png)
+ ### Plot of MAR ratio and moving average before and after playing the game
+<img src="Figure_1.png" width="400" height="400" />    <img src="Figure_2.png" width="400" height="400" />
+
+## References
+
+https://github.com/wangsongyuan98/FlappyBird\_And\_OpenCV
+
+https://github.com/wangsongyuan98/FlappyBird\_And\_OpenCV
+
+https://github.com/popadi/python-flappy-bird
+
+https://github.com/prakhargurawa/Drowsiness-Detection-OpenCV
+
+https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
+
+ 
+
+
+
