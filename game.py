@@ -128,7 +128,13 @@ while True:
         # Time to add new pipes
         if pipeSpawnTimer == 0:
             top = pipe_starting_template.copy()
-            top.x, top.y = window_size[0], random.randint(120 - 1000, window_size[1] - 120 - space_between_pipes - 1000)
+            # Check that the range is not empty before calling randint()
+            if window_size[1] - 120 - space_between_pipes - 1000 > 120 - 1000:
+                top.x, top.y = window_size[0], random.randint(120 - 1000, window_size[1] - 120 - space_between_pipes - 1000)
+            else:   
+                # Handle the case where the range is empty
+                top.x, top.y = window_size[0], random.randint(0, window_size[1] - 120 - space_between_pipes)           
+                #top.x, top.y = window_size[0], random.randint(120 - 1000, window_size[1] - 120 - space_between_pipes - 1000)
             bottom = pipe_starting_template.copy()
             bottom.x, bottom.y = window_size[0], top.y + 1000 + space_between_pipes
             pipe_frames.append([top, bottom])
