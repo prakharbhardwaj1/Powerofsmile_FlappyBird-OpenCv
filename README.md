@@ -31,9 +31,9 @@ https://github.com/wangsongyuan98/FlappyBird_And_OpenCV
 
 https://github.com/popadi/python-flappy-bird
 
-https://github.com/prakhargurawa/Drowsiness-Detection-OpenCV
+https://github.com/prakhargurawa/Drowsiness-Detection-OpenCV (for MAR Ratio)
 
-https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat
+https://www.kaggle.com/datasets/sergiovirahonda/shape-predictor-68-face-landmarksdat (Facial landmarks pretrained file)
 
  
 
