@@ -214,7 +214,7 @@ while True:
         shape = face_utils.shape_to_np(shape)
         mouth = shape[mStart:mEnd]
         mar = smile(mouth)
-        cv.putText(frame, "MAR: {:.2f}".format(mar), (10, 30), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        #cv.putText(frame, "MAR: {:.2f}".format(mar), (10, 30), cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 
         mouthHull = cv.convexHull(mouth)
         cv.drawContours(frame, [mouthHull], -1, (0, 255, 0), 1)
